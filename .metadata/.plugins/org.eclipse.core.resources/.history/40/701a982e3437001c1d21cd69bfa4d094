@@ -1,0 +1,16 @@
+package com.awesomeminds.IOC;
+
+public class Customer {
+
+	public static void main(String[] args) {
+		
+		Bank hdfc = new Hdfc();
+		System.out.println(hdfc.getBankName());
+		System.out.println(hdfc.getInterest());
+		
+		
+		
+
+	}
+
+}

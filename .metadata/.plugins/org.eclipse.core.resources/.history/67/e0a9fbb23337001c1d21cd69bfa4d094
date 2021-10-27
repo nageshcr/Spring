@@ -1,0 +1,5 @@
+package com.awesomeminds.IOC;
+
+public class Hdfc implements Bank{
+
+}

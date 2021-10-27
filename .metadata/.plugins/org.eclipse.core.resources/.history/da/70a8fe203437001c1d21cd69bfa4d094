@@ -1,0 +1,15 @@
+package com.awesomeminds.IOC;
+
+public class Customer {
+
+	public static void main(String[] args) {
+		
+		Axis axis = new Axis();
+		System.out.println(axis.getBankName());
+		System.out.println(axis.getInterest());
+		
+		
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.awesomeminds.IOC;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Customer {
+
+	public static void main(String[] args) {
+		
+		ApplicationContext context = new ClassPathXmlApplicationContext();
+
+		Bank bank = new Hdfc();
+		System.out.println(bank.getBankName());
+		System.out.println(bank.getInterest());
+
+	}
+
+}

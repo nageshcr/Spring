@@ -1,0 +1,5 @@
+package com.awesomeminds.IOC;
+
+public interface Bank {
+
+}

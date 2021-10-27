@@ -1,0 +1,17 @@
+package com.awesomeminds.IOC;
+
+public class Axis implements Bank {
+
+	@Override
+	public String getBankName() {
+		
+		return "Axis Bank";
+	}
+
+	@Override
+	public int getInterest() {
+		
+		return 10;
+	}
+
+}
